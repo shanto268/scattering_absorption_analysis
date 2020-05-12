@@ -26,14 +26,13 @@ Raw data from G4 -> process.py —> processed data —> analyze.py —> result!
 
 ## Pseudocode
 
-Read the two text files.
-Import the data and create relevant data structures using an "indexed muon event” system
-The generated structure would be created using the following filters for each of the data file:
-    >>> events that generated mu-
-        >>> out of these events sort events into two categories: detected (4/4) mu- and not detected muons
-    >>> Using this new information the following algorithm is implemented to determine the scattering/absorption effects:
-
 ~~~~~~~~~~~~~~~~~~~~~
+>Read the two text files.
+>Import the data and create relevant data structures using an "indexed muon event” system
+>The generated structure would be created using the following filters for each of the data file:
+> events that generated mu-
+>   out of these events sort events into two categories: detected (4/4) mu- and not detected muons
+>    Using this new information the following algorithm is implemented to determine the scattering/absorption effects:
 > count number of detected (4/4) mu- events in control case and wtp case
 > count number of undetected mu- events in control case and wtp case
 > initialize scattered mu counting variable
